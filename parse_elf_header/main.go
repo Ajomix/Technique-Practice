@@ -411,6 +411,9 @@ func main() {
 		e_shoff    = int(elf.Ehdr.e_shoff)
 		e_shstrndx = int(elf.Ehdr.e_shstrndx)
 	)
+	if elf.Ehdr.e_ident[4] != 1 {
+		println("32 bit Only")
+	}
 	draw_elf_header(elf)
 	fmt.Printf("Program Header : \n")
 
