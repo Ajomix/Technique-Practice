@@ -151,7 +151,7 @@ var (
 			21:      "EM_PPC64",
 			22:      "EM_S390",
 			23:      "EM_SPU",
-			24 - 35: "reserved",
+			24: 	 "reserved",
 			25:      "reserved",
 			26:      "reserved",
 			27:      "reserved",
