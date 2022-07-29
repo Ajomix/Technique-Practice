@@ -366,7 +366,7 @@ var (
 			4: "PF_R",
 			5: "PF_R | PF_X",
 			6: "PF_R | PF_W",
-			7: "PF_R + PF_W + PF_X",
+			7: "PF_R | PF_W | PF_X",
 		},
 		"sh_type": {
 			0:          "SHT_NULL",
