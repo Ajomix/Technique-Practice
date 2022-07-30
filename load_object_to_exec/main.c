@@ -114,7 +114,7 @@ void *lookup_function(unsigned char *name){
 	}
 	return NULL;
 }
-void execute_fucntion(){
+void execute_function(){
 	int(*add5)(int);
 	int(*add10)(int);
 	add5 = lookup_function("add5");
@@ -125,6 +125,6 @@ void execute_fucntion(){
 int main(){
 	load_object();
 	parse_object();
-	execute_fucntion();
+	execute_function();
 	return 1;
 }
